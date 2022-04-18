@@ -76,7 +76,7 @@ fidelity --gpu 5 --isc --fid --input1 exp/image_samples/baseline_cifar10/ --inpu
 
 ```
 
-#### CeleBA
+#### CelebA
 ```
 
 ```
