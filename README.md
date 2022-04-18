@@ -46,6 +46,45 @@ Use `--sequence` option instead.
 The above two cases contain some hard-coded lines specific to producing the image, so modify them according to your needs.
 
 
+### Evaluation
+
+#### Cifar-10
+```
+CUDA_VISIBLE_DEVICES=5 python main.py --config 'cifar10.yml' --doc baseline_cifar10 --sample --fid --timesteps 1000 --eta 1 --ni --image_folder baseline_cifar10
+```
+
+```
+fidelity --gpu 5 --isc --fid --input1 exp/image_samples/baseline_cifar10/ --input2 cifar10-train
+```
+
+#### Church
+```
+
+```
+
+```
+
+```
+
+
+#### Bedroom
+```
+
+```
+
+```
+
+```
+
+#### CeleBA
+```
+
+```
+
+```
+
+```
+
 ## References and Acknowledgements
 ```
 @article{song2020denoising,
